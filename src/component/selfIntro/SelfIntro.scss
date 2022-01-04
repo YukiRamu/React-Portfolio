@@ -1,13 +1,14 @@
 @import "../../utils/component";
 
-.intro {
+.intro,
+.skill {
   height: 100%;
   margin: 1rem;
   text-align: justify;
   background-color: $color5Tr;
   padding: 1rem;
   border-radius: 5vw;
-  h1 {
+  h2 {
     position: relative;
     text-align: center;
     margin-bottom: 1.5rem;
@@ -22,5 +23,12 @@
       height: 2px; /* 下線の太さ */
       background-color: $bgColorLight; /* 下線の色 */
     }
+  }
+  h4 {
+    margin-top: 0.5rem;
+  }
+  .skillRow {
+    width: 90%;
+    margin: auto;
   }
 }

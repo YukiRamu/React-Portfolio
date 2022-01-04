@@ -6,7 +6,7 @@ const SelfIntro = () => {
   return (
     <>
       <div className='intro'>
-        <h1># About me</h1>
+        <h2># About me</h2>
         <p>
           Born in Osaka, Japan. Based in Vancouver, Canada.
           A well-organized and positive person, problem solver, multi-tasker.
@@ -34,10 +34,12 @@ const SelfIntro = () => {
         </p>
       </div>
 
-      <Container className="intro">
-        <h1># Skills</h1>
-        <h2>Front-end</h2>
-        <Row sm={4}>
+      <div className="skill">
+        <h2># Skills</h2>
+        <h4>//Front-end</h4>
+        <Row
+          className='skillRow'
+          xs={2} sm={2} md={3}>
           <Col>HTML</Col>
           <Col>CSS | SCSS</Col>
           <Col>Bootstrap</Col>
@@ -45,20 +47,26 @@ const SelfIntro = () => {
           <Col>React.js</Col>
           <Col>React Redux</Col>
         </Row>
-      </Container>
-
-
-      {/* <p>HTML</p>
-      <p>CSS | SCSS</p>
-      <p>Bootstrap</p>
-      <p>JavaScript</p>
-      <p>React.js</p>
-      <p>React Redux</p>
-      <h2>Backend</h2>
-      <p>Node.js</p>
-      <p>express.js</p>
-      <p>Mongo DB | Mongoose</p> */}
-
+        <h4>//Backend</h4>
+        <Row
+          className='skillRow'
+          xs={2} sm={2} md={3}>
+          <Col>Node.js</Col>
+          <Col>express.js</Col>
+          <Col>Bootstrap</Col>
+          <Col>Mongo DB</Col>
+          <Col>Mongoose</Col>
+        </Row>
+        <h4>//Development | Tools </h4>
+        <Row
+          className='skillRow'
+          xs={2} sm={2} md={3}>
+          <Col>Project Management</Col>
+          <Col>System Engineering</Col>
+          <Col>Figma</Col>
+          <Col>Trello</Col>
+        </Row>
+      </div>
     </>
   );
 };
