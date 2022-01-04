@@ -1,0 +1,21 @@
+@import "../../utils/component";
+
+.topNav {
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  background-color: $bgColorDark2;
+  height: 60px;
+  .container {
+    .navbar-brand {
+      .logo {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+      }
+    }
+    .navbar-nav {
+      gap: 1rem;
+    }
+  }
+}

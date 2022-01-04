@@ -1,0 +1,12 @@
+@import "../../utils/component";
+
+.wrapper {
+  font-family: "Cuprum", sans-serif !important;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../../images/bgImage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}

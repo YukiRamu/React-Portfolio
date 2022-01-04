@@ -1,0 +1,26 @@
+@import "../../utils/component";
+
+.intro {
+  height: 100%;
+  margin: 1rem;
+  text-align: justify;
+  background-color: $color5Tr;
+  padding: 1rem;
+  border-radius: 5vw;
+  h1 {
+    position: relative;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      left: 50%; /* 位置調整 */
+      transform: translate(-50%); /* 位置調整 */
+      bottom: -10px; /* 下線の上下位置調整 */
+      width: 30px; /* 下線の幅 */
+      height: 2px; /* 下線の太さ */
+      background-color: $bgColorLight; /* 下線の色 */
+    }
+  }
+}

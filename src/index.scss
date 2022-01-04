@@ -1,0 +1,13 @@
+@import "./utils/component";
+
+body,
+.root {
+  margin: 0;
+  font-family: "Cuprum", sans-serif !important;
+  color: $textColor1 !important;
+}
+
+a {
+  color: $textColor1 !important;
+  text-decoration: none !important;
+}
