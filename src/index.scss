@@ -10,4 +10,8 @@ body,
 a {
   color: $textColor1 !important;
   text-decoration: none !important;
+  &:hover {
+    transition: 0.5s;
+    color: $bgColorDark !important;
+  }
 }

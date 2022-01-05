@@ -3,14 +3,11 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from './pages/home/Home';
 import About from './pages/about/About';
 import Wrapper from "./component/wrapper/Wrapper";
-import ScrollToTop from "./component/scrollToTop/ScrollToTop";
-
 
 const App = () => {
   return (
     <>
       <Router>
-        <ScrollToTop />
         <Wrapper>
           <Routes>
             <Route exact path="/" element={<Home />} />

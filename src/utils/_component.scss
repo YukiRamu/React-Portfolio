@@ -9,9 +9,15 @@ $bgColorDark2: #a77f75;
 $bgColorLight: #e4dddc;
 $textColor1: white;
 $textColor2: black;
+$textColor3: darkslategray;
 
+$color4Tr: #7a392c9c;
+$color5Tr: #ad887f52;
+
+///////// not used /////////
 $accentColor1: #cd7371;
 $accentColor2: #b56a16;
+$accentColor2Tr: #b56b1677;
 
 $color2: #e5e5e5;
 
@@ -19,9 +25,8 @@ $color6: #161c14;
 $color7: #fadb8c;
 
 $color1Tr: #ffffffac;
-$color3Tr: #b56b169d;
-$color4Tr: #7a392ca9;
-$color5Tr: #a77f75be;
+
+
 $color7Tr: #fadb8cbe;
 $blackTr: rgba(0, 0, 0, 0.793);
 
@@ -29,11 +34,10 @@ $blackTr: rgba(0, 0, 0, 0.793);
 @keyframes fadeIn {
   from {
     opacity: 0;
-    top: 50%;
+    top: 40%;
   }
   to {
     opacity: 1;
-    bottom: 25%;
   }
 }
 
@@ -41,11 +45,10 @@ $blackTr: rgba(0, 0, 0, 0.793);
 @-moz-keyframes fadeIn {
   from {
     opacity: 0;
-    top: 50%;
+    top: 40%;
   }
   to {
     opacity: 1;
-    bottom: 25%;
   }
 }
 
@@ -53,11 +56,10 @@ $blackTr: rgba(0, 0, 0, 0.793);
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0;
-    top: 50%;
+    top: 40%;
   }
   to {
     opacity: 1;
-    bottom: 25%;
   }
 }
 
@@ -65,11 +67,10 @@ $blackTr: rgba(0, 0, 0, 0.793);
 @-ms-keyframes fadeIn {
   from {
     opacity: 0;
-    top: 50%;
+    top: 40%;
   }
   to {
     opacity: 1;
-    bottom: 25%;
   }
 }
 
@@ -77,10 +78,9 @@ $blackTr: rgba(0, 0, 0, 0.793);
 @-o-keyframes fadeIn {
   from {
     opacity: 0;
-    top: 50%;
+    top: 40%;
   }
   to {
     opacity: 1;
-    bottom: 25%;
   }
 }

@@ -1,0 +1,30 @@
+@import "../../utils/component";
+
+footer {
+  text-align: center;
+  background-color: $bgColorDark2;
+  padding-top: 0.5rem;
+  @include media-breakpoint-up(md) {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  a {
+    margin: 0.5rem;
+    svg {
+      margin-right: 0.5rem;
+    }
+  }
+  .links {
+    margin: 0.5rem;
+    a {
+      svg {
+        margin-right: 0.5rem;
+      }
+    }
+  }
+  p {
+    margin-bottom: 0;
+    padding-bottom: 0.5rem;
+  }
+}

@@ -17,6 +17,24 @@
     }
     .navbar-nav {
       gap: 1rem;
+      align-items: center;
+      .navLinks {
+        &:hover {
+          border-bottom: 0.1rem solid $textColor1;
+        }
+      }
+      .resumeLink {
+        border: 0.1rem solid $accentColor2;
+        border-radius: 5%;
+        padding: 0.1rem 0.2rem;
+        color: $accentColor2;
+        svg {
+          margin-right: 0.5rem;
+        }
+        &:hover {
+          background-color: $accentColor2Tr;
+        }
+      }
     }
   }
 }

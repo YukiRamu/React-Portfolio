@@ -2,6 +2,7 @@ import React from 'react';
 import "./NavBar.scss";
 import { Link } from "react-router-dom";
 import { Container, Navbar, Nav } from 'react-bootstrap';
+import { IoDocumentTextSharp } from "react-icons/io5";
 
 const NavBar = () => {
   return (
@@ -25,7 +26,9 @@ const NavBar = () => {
             <Link to="/contact" className='navLinks'>
               Contact
             </Link>
-            {/* themeChanger */}
+            <a
+              className='resumeLink'
+              href='https://github.com/YukiRamu/YukiRamu/blob/master/Resume.pdf' target="_blank"><IoDocumentTextSharp />Resume</a>
           </Nav>
         </Container>
       </Navbar>

@@ -12,22 +12,27 @@
   background-position: top;
   background-repeat: no-repeat;
   background-size: contain;
+  @include media-breakpoint-up(md) {
+    background-image: linear-gradient(to bottom, transparent, $bgColorDark 70%), url("../../images/profImg.JPG");
+  }
   .title {
     position: absolute;
-    bottom: 25%;
+    bottom: 30%;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
     text-align: center;
-    transition: 2s;
+    transition: 2s ease-in;
     opacity: 1;
     -webkit-animation: fadeIn 2s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadeIn 2s; /* Firefox < 16 */
     -ms-animation: fadeIn 2s; /* Internet Explorer */
     -o-animation: fadeIn 2s; /* Opera < 12.1 */
     animation: fadeIn 2s;
+    @include media-breakpoint-up(md) {
+      bottom: 40%;
+    }
     .arrow {
-      font-size: 2rem;
       &:hover {
         color: $textColor2;
       }
