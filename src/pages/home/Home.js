@@ -17,14 +17,13 @@ const Home = () => {
           <Link
             to="/about"
             className='arrow' >
-            <BsArrowDown /><br/>
+            <BsArrowDown /><br />
             About me
           </Link>
         </div>
         <FadeIn>
           <FollowMe />
         </FadeIn>
-        {/* <img className='profImg' src='./profImg.JPG' alt='profImg' /> */}
       </Container>
     </>
   );

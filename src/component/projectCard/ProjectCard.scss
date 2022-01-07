@@ -1,1 +1,34 @@
 @import "../../utils/component";
+
+h2 {
+  text-align: center;
+  margin: 0.5rem 0 !important;
+  color: $bgColorDark;
+}
+.row {
+  width: 95% !important;
+  margin: 1rem auto !important;
+  .col {
+    margin: 0.5rem 0;
+    .project {
+      height: 100%;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+      background-color: transparent !important;
+      border: none !important;
+      .projectDescription {
+        .card-title {
+          color: $bgColorDark;
+          font-weight: bold;
+        }
+        background-color: $color5Tr;
+        a {
+          margin: 0 0.3rem;
+          font-style: italic;
+          svg {
+            margin-right: 0.3rem;
+          }
+        }
+      }
+    }
+  }
+}
