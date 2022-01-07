@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Wrapper.scss";
 import NavBar from '../navBar/NavBar';
+import Footer from '../footer/Footer';
 import FadeIn from 'react-fade-in/lib/FadeIn';
 import ScrollToTop from '../scrollToTop/ScrollToTop';
 
@@ -10,9 +11,8 @@ const Wrapper = ({ children }) => {
       <ScrollToTop />
       <div className="wrapper">
         <NavBar />
-        <div>
-          {children}
-        </div>
+        {children}
+        <Footer />
       </div>
     </FadeIn>
   );

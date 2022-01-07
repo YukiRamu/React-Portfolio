@@ -10,8 +10,8 @@ const About = () => {
       <FadeIn>
         <SelfIntro />
       </FadeIn>
-    </Container>
+    </Container >
   );
 };
 
-export default About;
+export default About;;

@@ -5,9 +5,9 @@ footer {
   background-color: $bgColorDark2;
   padding-top: 0.5rem;
   @include media-breakpoint-up(md) {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    // position: fixed;
+    // bottom: 0;
+    // width: 100%;
   }
   a {
     margin: 0.5rem;

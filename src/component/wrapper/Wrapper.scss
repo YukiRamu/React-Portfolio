@@ -1,6 +1,8 @@
 @import "../../utils/component";
 
 .wrapper {
+  display: flex;
+  flex-direction: column;
   font-family: "Cuprum", sans-serif !important;
   width: 100%;
   min-height: 100vh;

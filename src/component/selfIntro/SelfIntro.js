@@ -19,9 +19,9 @@ const SelfIntro = () => {
         <ul>
           <li><IoDiamond />passionate about writing coding, solving technical problems, and creating logics!</li>
           <li><IoDiamond />confident in her analytical and troubleshooting skills as well as interpersonal skills.</li>
-          <li><IoDiamond /> a multi-tasker and a quick self-starter.</li>
-          <li><IoDiamond /> great at working both collaboratively and independently.</li>
-          <li><IoDiamond /> looking forward to taking the initiatives to contribute to the team!</li>
+          <li><IoDiamond />a multi-tasker and a quick self-starter.</li>
+          <li><IoDiamond />great at working both collaboratively and independently.</li>
+          <li><IoDiamond />looking forward to taking the initiatives to contribute to the team!</li>
         </ul>
       </div>
 
@@ -58,7 +58,6 @@ const SelfIntro = () => {
           <Col>Trello</Col>
         </Row>
       </div>
-      <Footer />
     </>
   );
 };

@@ -5,7 +5,7 @@ import { BsLinkedin, BsGithub, BsFillTelephoneFill } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id='contact'>
       <a href="tel://12368892834">
         <BsFillTelephoneFill />
         +1 236 889 2834</a>
