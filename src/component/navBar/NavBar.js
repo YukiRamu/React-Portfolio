@@ -10,7 +10,7 @@ const NavBar = () => {
     <>
       <Navbar className='topNav'>
         <Container>
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="https://yukiramu.github.io/React-Portfolio/">
             <img
               alt="logo"
               src="./logo.jpg"
