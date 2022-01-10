@@ -11,7 +11,7 @@ const ProjectCard = () => {
       <Row xs={1} md={2} lg={3} xl={3} xxl={4}>
         <Col>
           <Card className='project'>
-            <Card.Img variant="top" src="./img/project1.png" />
+            <Card.Img variant="top" src="./img/project1.png" alt='project1'/>
             <Card.Body className='projectDescription'>
               <Card.Title>Expense Trackify</Card.Title>
               <Card.Text>
@@ -25,7 +25,7 @@ const ProjectCard = () => {
         </Col>
         <Col>
           <Card className='project'>
-            <Card.Img variant="top" src="./img/project2.png" />
+            <Card.Img variant="top" src="./img/project2.png" alt='project2'/>
             <Card.Body className='projectDescription'>
               <Card.Title>Redux To Do List</Card.Title>
               <Card.Text>
@@ -38,7 +38,7 @@ const ProjectCard = () => {
         </Col>
         <Col>
           <Card className='project'>
-            <Card.Img variant="top" src="./img/project3.png" />
+            <Card.Img variant="top" src="./img/project3.png" alt='project3' />
             <Card.Body className='projectDescription'>
               <Card.Title>React Weather App</Card.Title>
               <Card.Text>
@@ -51,7 +51,7 @@ const ProjectCard = () => {
         </Col>
         <Col>
           <Card className='project'>
-            <Card.Img variant="top" src="./img/project4.png" />
+            <Card.Img variant="top" src="./img/project4.png" alt='project4'/>
             <Card.Body className='projectDescription'>
               <Card.Title>Cinema Booking App</Card.Title>
               <Card.Text>
@@ -64,7 +64,7 @@ const ProjectCard = () => {
         </Col>
         <Col>
           <Card className='project'>
-            <Card.Img variant="top" src="./img/project5.png" />
+            <Card.Img variant="top" src="./img/project5.png" alt='project5' />
             <Card.Body className='projectDescription'>
               <Card.Title>Recipe Finder</Card.Title>
               <Card.Text>

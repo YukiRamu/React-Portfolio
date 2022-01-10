@@ -12,8 +12,8 @@ const NavBar = () => {
         <Container>
           <Navbar.Brand href="/home">
             <img
-              alt=""
-              src="../logo.jpg"
+              alt="logo"
+              src="./logo.jpg"
               className="logo"
             />
           </Navbar.Brand>
