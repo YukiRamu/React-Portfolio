@@ -10,7 +10,7 @@ const NavBar = () => {
     <>
       <Navbar className='topNav'>
         <Container>
-          <Navbar.Brand href="/home">
+          <Navbar.Brand href="/">
             <img
               alt="logo"
               src="./logo.jpg"
