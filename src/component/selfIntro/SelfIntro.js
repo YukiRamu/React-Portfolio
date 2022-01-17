@@ -31,31 +31,37 @@ const SelfIntro = () => {
         <Row
           className='skillRow'
           xs={2} sm={2} md={4} lg={5} xl={6} xxl={6}>
-          <Col>HTML</Col>
-          <Col>CSS | SCSS</Col>
-          <Col>Bootstrap</Col>
-          <Col>JavaScript</Col>
-          <Col>React.js</Col>
-          <Col>React Redux</Col>
+          <Col><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" /></Col>
+          <Col><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" /></Col>
+          <Col><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" /></Col>
+          <Col><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg" /></Col>
+          <Col><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" /></Col>
+          <Col><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" /></Col>
+          <Col><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" /></Col>
         </Row>
         <p>/* Backend */</p>
         <Row
           className='skillRow'
           xs={2} sm={2} md={4} lg={5} xl={6} xxl={6}>
-          <Col>Node.js</Col>
-          <Col>express.js</Col>
-          <Col>Bootstrap</Col>
-          <Col>Mongo DB</Col>
-          <Col>Mongoose</Col>
+          <Col><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" /></Col>
+          <Col><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" /></Col>
+          <Col><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg" /></Col>
+          <Col><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg" /></Col>
         </Row>
         <p>/* Development | Tools */</p>
         <Row
           className='skillRow'
           xs={2} sm={2} md={4} lg={5} xl={6} xxl={6}>
+          <Col><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" /></Col>
+          <Col><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" /></Col>
+          <Col><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain-wordmark.svg" /></Col>
+        </Row>
+        <p>/* Others */</p>
+        <Row
+          className='skillRow'
+          xs={2} sm={2} md={4} lg={5} xl={6} xxl={6}>
           <Col>Project Management</Col>
           <Col>System Engineering</Col>
-          <Col>Figma</Col>
-          <Col>Trello</Col>
         </Row>
       </div>
     </>
