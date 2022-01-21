@@ -11,7 +11,7 @@ const ProjectCard = () => {
       <Row xs={1} md={2} lg={3} xl={3} xxl={4}>
         <Col>
           <Card className='project'>
-            <Card.Img variant="top" src="./img/project1.png" alt='project1'/>
+            <Card.Img variant="top" src="./img/project1.png" alt='project1' />
             <Card.Body className='projectDescription'>
               <Card.Title>Expense Trackify</Card.Title>
               <Card.Text>
@@ -25,7 +25,7 @@ const ProjectCard = () => {
         </Col>
         <Col>
           <Card className='project'>
-            <Card.Img variant="top" src="./img/project2.png" alt='project2'/>
+            <Card.Img variant="top" src="./img/project2.png" alt='project2' />
             <Card.Body className='projectDescription'>
               <Card.Title>Redux To Do List</Card.Title>
               <Card.Text>
@@ -51,7 +51,7 @@ const ProjectCard = () => {
         </Col>
         <Col>
           <Card className='project'>
-            <Card.Img variant="top" src="./img/project4.png" alt='project4'/>
+            <Card.Img variant="top" src="./img/project4.png" alt='project4' />
             <Card.Body className='projectDescription'>
               <Card.Title>Cinema Booking App</Card.Title>
               <Card.Text>
@@ -72,6 +72,18 @@ const ProjectCard = () => {
               </Card.Text>
               <a target="_blank" href='https://github.com/YukiRamu/Recipe-Finder'><GoMarkGithub /></a>
               <a target="_blank" href='https://yukiramu.github.io/Recipe-Finder/'><GoLinkExternal />View Project</a>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          <Card className='project'>
+            <Card.Img variant="top" src="./img/project6.png" alt='project6' />
+            <Card.Body className='projectDescription'>
+              <Card.Title>The 3C Sense Company Website</Card.Title>
+              <Card.Text>
+                WordPress project for The 3C Sense which organizes personalized events and creates creative gifts for customers. The website is created by Elementor.
+              </Card.Text>
+              <a target="_blank" href='https://brandidea.com.br/clients/the3csense/'><GoLinkExternal />View Project</a>
             </Card.Body>
           </Card>
         </Col>
